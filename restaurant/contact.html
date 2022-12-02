@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARVON RESTAURANT</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="images/1logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<a href="index.html" class="logo">KARVON<span>.</span></a>
+		<div class="toggle" onclick="toggleMenu();"></div>
+		<ul class="menu" id="myTopnav">
+			<li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+			<li><a href="menu.html" onclick="toggleMenu();">Menu</a></li>
+			<li><a href="gallery.html" onclick="toggleMenu();">Gallery</a></li>
+			<li><a href="popular.html" onclick="toggleMenu();">Popular</a></li>
+			<li><a href="about.html" onclick="toggleMenu();">About</a></li>
+			<li><a href="contact.html" onclick="toggleMenu();">Contact</a></li>
+		</ul>
+	</header>
+
+    <!--     CONTACT    -->
+
+	<section class="contact" id="contact">
+		<div class="contact_content">
+			<h2>Contact Us</h2>
+		</div>
+		<div class="container">
+			<div class="contact_info">
+				<div class="contact_box">
+					<div class="c_icon"><i class="fas fa-map-marker"></i></div>
+					<div class="c_text">
+						<h3>Location:</h3>
+						<p>Khiva, Khorezm,<br>Nurullaboy Park</p>
+					</div>
+				</div>
+				<div class="contact_box">
+					<div class="c_icon">
+						<i class="fas fa-clock"></i>
+					</div>
+					<div class="c_text">
+						<h3>Open Hours:</h3>
+						<p>Monday-Sunday<br>09:00AM-23:00PM</p>
+					</div>
+				</div>
+				<div class="contact_box">
+					<div class="c_icon"><i class="fas fa-envelope"></i></div>
+					<div class="c_text">
+						<h3>Email:</h3>
+						<p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="aac3c4ccc5eaecc5c5ce84">[email&#160;protected]</a></p>
+					</div>
+				</div>
+				<div class="contact_box">
+					<div class="c_icon">
+						<i class="fas fa-phone"></i></div>
+					<div class="c_text">
+						<h3>Call:</h3>
+						<p>+97 518-32-32</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="contact_form">
+				<form>
+					<div class="input_cbox">
+						<input type="text" name="name" required="required">
+						<span>Full Name</span>
+					</div>
+
+					<div class="input_cbox">
+						<input type="text" name="name" required="required">
+						<span>Email</span>
+					</div>
+
+					<div class="input_cbox">
+						<textarea required="required"></textarea>
+						<span>Type your Message..</span>
+					</div>
+					<div class="input_cbox">
+						<input type="submit" name="name" value="send">
+						
+					</div>
+				</form>
+			</div>
+		</div>
+	</section> 
+
+
+	     <!--PAGE SIDE BAR-->
+
+	<ul class="social">
+		<li class="s_item">
+			<a href="index.html" class="s_link">
+				<i class="fas fa-home-heart"></i>
+				<span class="name">home</span>
+			</a>
+		</li>
+		<li class="s_item">
+			<a href="menu.html" class="s_link">
+				<i class="fas fa-list-alt"></i>
+				<span class="name">Menu</span>
+			</a>
+		</li>
+		<li class="s_item">
+			<a href="gallery.html" class="s_link">
+				<i class="fas fa-image"></i>
+				<span class="name">Gallery</span>
+			</a>
+		</li>
+		<li class="s_item">
+			<a href="popular.html" class="s_link">
+				<i class="fas fa-fire-alt"></i>
+				<span class="name">Popular</span>
+			</a>
+		</li>
+		<li class="s_item">
+			<a href="about.html" class="s_link">
+				<i class="fas fa-info"></i>
+				<span class="name">About</span>
+			</a>
+		</li>
+		<li class="s_item">
+			<a href="contact.html" class="s_link">
+				<i class="fas fa-address-book"></i>
+				<span class="name">Contact</span>
+			</a>
+		</li>
+	</ul>
+
+
+    <!--    FOOTER       -->
+
+
+	
+	<footer class="footer">
+		<div class="footer_left">
+			<img src="images/logo.png" alt="Logo">
+			<p>Located in Khorezm. <br>
+			   We love your Smile</p>
+			<br>
+			<div class="f_socials">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-dribbble"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+				<a href="#"><i class="fab fa-github"></i></a>
+			</div>
+		</div>
+
+		<ul class="footer_right">
+			<li>
+				<h2>Menu</h2>
+
+				<ul class="f_box">
+					<li><a href="#">Asian</a></li>
+					<li><a href="#">Italian</a></li>
+					<li><a href="#">American</a></li>
+					<li><a href="#">Japanese</a></li>
+				</ul>
+			</li>
+
+			<li class="f_features">
+				<h2>Branches soon!</h2>
+
+				<ul class="f_box">
+					<li><a href="#">Bukhara</a></li>
+					<li><a href="#">Samarqand</a></li>
+					<li><a href="#">Andijan</a></li>
+					<li><a href="#">Tashkent</a></li>
+					
+				</ul>
+			</li>
+
+
+			<li class="f_address">
+				<h2>Main address</h2>
+
+				<ul class="f_box">
+					<li><a href="#">Khiva Khorezm</a></li>
+					<li><a href="#">Open Hours:<br>
+						Monday-Sunday<br>09:00AM-23:00PM</a></li>
+					<li><a href="#"><span class="__cf_email__" data-cfemail="066f6860694640696962">[email&#160;protected]</span></a></li>
+					<li><a href="#">+97 518-32-32</a></li>
+					
+				</ul>
+			</li>
+
+
+		</ul>
+	</footer>
+
+	<!-- Navbar sticky Script-->
+	<script src="JavaScript/script.js"></script>
+    
+
+</body>
+</html>
