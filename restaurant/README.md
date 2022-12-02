@@ -4,10 +4,6 @@ this website hosts restaurant service, such as looking several types of food, vi
 Aprat from that, clients can also text directly to the restaurant to know about food or order tables or direct call them.
 
 
-
-# project link:
-https://github.com/00014415/web_technology.git 
-
 #Link to website
 https://wiut14415.netlify.app/
 
